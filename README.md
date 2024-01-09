@@ -37,7 +37,7 @@ Our face recognition system demonstrates robust performance on the CelebA datase
 
 ### Quantitative Results
 
-The Top-K Accuracy of the face recognition system is consistently high, reaching [X%] on average. This metric reflects the system's efficiency in correctly identifying relevant faces within the specified retrieval range.
+The Top-K Accuracy of the face recognition system is consistently high, reaching 84% on average(max: 98%, min: 67%). This metric reflects the system's efficiency in correctly identifying relevant faces within the specified retrieval range.
 
 ### Qualitative Results
 
@@ -47,11 +47,10 @@ In addition to quantitative metrics, qualitative analysis reveals the model's ca
 
 While our model generally performs well, there are certain challenging scenarios where it may encounter difficulties. Some identified failure cases include:
 
-1. **Low Lighting Conditions:** The model may struggle with faces captured in extremely low-light environments, affecting its ability to extract accurate facial features.
+1. **Very Low Lighting Conditions:** The model may struggle with faces captured in extremely very low-light environments, affecting its ability to extract accurate facial features.
 
-2. **Partial Occlusion:** Instances where a significant portion of the face is occluded, such as by sunglasses or hair, may result in reduced recognition accuracy.
+2. **Partial Occlusion:** Instances where a significant portion of the face is occluded, such as by sunglasses or hair or a mask, may result in reduced recognition accuracy.
 
 3. **Similar Looking Faces:** In cases where individuals share similar facial features, the model may face challenges in distinguishing between them.
 
-These failure cases highlight areas for potential improvement and offer insights into the limitations of the current model. Ongoing efforts in model refinement and dataset augmentation are aimed at addressing these challenges.
-
+A proper model assessment couldn't be done due to lack on time on my side.
