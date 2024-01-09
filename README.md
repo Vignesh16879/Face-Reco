@@ -14,7 +14,7 @@ Explore existing ideas and references related to face recognition:
 
 ### CelebA Dataset
 
-The CelebA dataset is a widely used dataset for face recognition tasks, comprising over 200,000 celebrity images annotated with 40 attribute labels. The dataset is diverse and well-suited for training and evaluating face recognition models.
+The CelebA dataset is a widely used dataset for face recognition tasks, comprising over 2,000 celebrity images annotated with 40 attribute labels. The dataset is diverse and well-suited for training and evaluating face recognition models.
 
 ## Implementation
 
